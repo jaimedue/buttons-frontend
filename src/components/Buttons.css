@@ -1,0 +1,9 @@
+.Buttons {
+    width: 80%;
+}
+
+@media screen and (max-width: 780px) {
+    .Buttons {
+        width: 100%;
+    }
+} 
