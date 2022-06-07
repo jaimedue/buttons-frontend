@@ -4,6 +4,8 @@ const path = require('path')
 const app = express()
 const port = process.env.PORT || 3000
 
+// const REACT_APP_BASE_URL='https://buttons-backend.herokuapp.com/'
+
 const publicPath = path.join(__dirname, '/', 'public')
 
 app.use(express.static(path.join(__dirname, 'build')))

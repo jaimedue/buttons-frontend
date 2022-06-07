@@ -1,5 +1,5 @@
 export const getByButton = async (btnId) => {
-
-    const response = await fetch(`api/styles/button/${btnId}`)
+    const URI = "https://buttons-backend.herokuapp.com/"
+    const response = await fetch(`${URI}/api/styles/button/${btnId}`)
     return await response.json()
 }
