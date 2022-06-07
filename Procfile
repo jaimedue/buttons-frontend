@@ -1,1 +1,1 @@
-worker: PORT=process.env.PORT node index.js
+worker: set PORT=(process.env.PORT || 3000) npm start
