@@ -1,1 +1,1 @@
-worker: set PORT=process.env.PORT npm start
+worker: npm start
