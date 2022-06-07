@@ -3,7 +3,7 @@ ul {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    margin-top: 130px;
+    margin-top: 150px;
     justify-content: center;
 }
 
