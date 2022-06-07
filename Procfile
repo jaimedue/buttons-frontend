@@ -1,1 +1,1 @@
-worker: node index.js
+worker: PORT=process.env.PORT node index.js
